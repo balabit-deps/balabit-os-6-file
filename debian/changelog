@@ -1,3 +1,12 @@
+file (1:5.25-2ubuntu1.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: out-of-bounds read via crafted ELF file
+    - debian/patches/CVE-2018-10360.patch: add bounds check to
+      src/readelf.c.
+    - CVE-2018-10360
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 13 Jun 2018 13:11:41 -0400
+
 file (1:5.25-2ubuntu1) xenial; urgency=medium
 
   * Merge from Debian unstable. Remaining changes:
