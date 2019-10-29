@@ -16,3 +16,4 @@ local.report-gz-as-application-gzip.patch
 local.disable-detection-of-vax-coff-executables.patch
 CVE-2018-10360.patch
 CVE-2019-8905_8907.patch
+CVE-2019-18218.patch
